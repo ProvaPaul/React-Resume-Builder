@@ -19,9 +19,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<><Header/><About /></>} />
-          <Route path='/resumebuild' element={<><Header/><Input /></>} />
+          {/* <Route path='/' element={<Home />} />
+          <Route path='/about' element={<><Header/><About /></>} /> */}
+          <Route path='/' element={<><Header/><Input /></>} />
           <Route path='/selecttheme' element={<><Header/><Selecttheme /></>} />
           <Route path='/theme-professional/download' element={<Professional />} />
           <Route path='/theme-creative/download' element={<Creative />} />
